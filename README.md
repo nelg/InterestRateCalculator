@@ -2,6 +2,9 @@ This tools is for calculating the after-tax return and various other related val
 
 The code also includes some helper functions for converting between RGB and hex color codes and generating color gradients.
 
+# Screenshot
+
+![Screenshot](screenshot.png)
 
 # Requirements:
 pip install -r requirements.txt -t .
