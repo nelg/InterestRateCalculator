@@ -7,7 +7,7 @@ The code also includes some helper functions for converting between RGB and hex 
 pip install -r requirements.txt -t .
 
 # Example output:
-
+<code>
 -------- INPUTS --------- 
 Principal: $ 100000.00
 PIR Tax Rate: 28.00%
@@ -29,18 +29,21 @@ Interest Rate    Return Before Taxes            Tax Payable             Interest
 10.00%           $ 10000.00                     $ 2800.00               10.75%                     $ 10746.27                          $ 3546.27                    $ 7200.00
 11.00%           $ 11000.00                     $ 3080.00               11.82%                     $ 11820.90                          $ 3900.90                    $ 7920.00
 
-
+</code>
 
 # Example use:
-
+<code>
 python3 InterestRateCalculator.py --principal 50000 0.06 0.07 
 
 seq 1 .2 40 | xargs python3 InterestRateCalculator.py
-
+</code>
 ## lolcat output
+<code bash>
 ./InterestRateCalculator.py  | lolcat
-
+</code>
 
 ## HTML output:
+<code bash>
 yay python-ansi2html
 python3 InterestRateCalculator.py --principal 500000 4 4.2 4.4 4.6 4.7 4.8 30 33 | ansi2html  > InterestRates.html
+</code>
