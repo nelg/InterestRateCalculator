@@ -1,3 +1,6 @@
+Demo version - https://nelg.github.io/InterestRateCalculator/InterestRateCalculator.html
+
+
 This tools is for calculating the after-tax return and various other related values for a given principal amount and a set of interest rates, personal tax rate, and portfolio investment income tax rate. It uses the argparse library to parse command line arguments for the principal, pir_tax_rate, personal_tax_rate, and interest_rates. It then iterates over the interest rates, calculates various values for each rate, and appends the results to a list. Finally, it prints the results in a table using the tabulate library, with various values colored using the terminalcolor library.
 
 The code also includes some helper functions for converting between RGB and hex color codes and generating color gradients.
