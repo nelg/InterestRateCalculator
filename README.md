@@ -19,8 +19,8 @@ Principal: $ 100000.00
 PIR Tax Rate: 28.00%
 Personal Tax Rate: 33.00%
 
-Interest Rate    Return Before Taxes            Tax Payable             Interest Rate              Return Before Taxes                 Tax Payable                  After-tax Return
-                 (using input interest rate)    (using PIR tax rate)    (from After-tax Return)    (using calculated interest rate)    (using personal tax rate)
+Interest Rate    Return Before Taxes            Tax Payable             Personal Interest Rate     Return Before Taxes                 Tax Payable                  After-tax Return
+                 (using input interest rate)    (using PIR tax rate)    (you need at least this)   (using calculated interest rate)    (using personal tax rate)
 ---------------  -----------------------------  ----------------------  -------------------------  ----------------------------------  ---------------------------  ------------------
 4.00%            $ 4000.00                      $ 1120.00               4.30%                      $ 4298.51                           $ 1418.51                    $ 2880.00
 5.00%            $ 5000.00                      $ 1400.00               5.37%                      $ 5373.13                           $ 1773.13                    $ 3600.00

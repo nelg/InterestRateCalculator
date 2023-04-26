@@ -116,10 +116,10 @@ for interest_rate in interest_rates:
     brightness -= gradient_steps
 
 headers = [
-     ctext('Interest Rate',color="24bit-53;234;255", text_type="bold"),
+     ctext('PIR Interest Rate',color="24bit-53;234;255", text_type="bold"),
      ctext('Return Before Taxes\n(using input interest rate)',color="24bit-53;234;255", text_type="bold"),
      ctext('Tax Payable\n(using PIR tax rate)',color="24bit-53;234;255", text_type="bold"),
-     ctext('Interest Rate\n(from After-tax Return)',color="24bit-53;234;255", text_type="bold"),
+     ctext('Personal Interest Rate\n(Must be at least\nthis rate to match PIR)',color="24bit-53;234;255", text_type="bold"),
      ctext('Return Before Taxes\n(using calculated interest rate)',color="24bit-53;234;255", text_type="bold"),
      ctext('Tax Payable\n(using personal tax rate)',color="24bit-53;234;255", text_type="bold"),
      ctext('After-tax Return',color="24bit-53;234;255", text_type="bold")
