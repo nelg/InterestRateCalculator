@@ -117,7 +117,7 @@ for interest_rate in interest_rates:
 
 headers = [
      ctext('PIR Interest Rate',color="24bit-53;234;255", text_type="bold"),
-     ctext('Return Before Taxes\n(using input interest rate)',color="24bit-53;234;255", text_type="bold"),
+     ctext('Return Before Taxes\n(using PIR interest rate)',color="24bit-53;234;255", text_type="bold"),
      ctext('Tax Payable\n(using PIR tax rate)',color="24bit-53;234;255", text_type="bold"),
      ctext('Personal Interest Rate\n(Must be at least\nthis rate to match PIR)',color="24bit-53;234;255", text_type="bold"),
      ctext('Return Before Taxes\n(using calculated interest rate)',color="24bit-53;234;255", text_type="bold"),

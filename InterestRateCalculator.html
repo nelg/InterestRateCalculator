@@ -139,7 +139,7 @@ let headerCell = document.createElement("th");
 headerCell.appendChild(document.createTextNode("Interest rate"));
 headerRow.appendChild(headerCell);
  // Create a table with results
- let resultsTable = "<table style=\"background-color: #111\"><thead><tr><th>Interest Rate</th><th>Return Before Taxes<br\> (using input interest rate)</th><th>Tax Payable<br\>(using PIR tax rate)</th>";
+ let resultsTable = "<table style=\"background-color: #111\"><thead><tr><th>PIR Interest Rate</th><th>Return Before Taxes<br\> (using PIR interest rate)</th><th>Tax Payable<br\>(using PIR tax rate)</th>";
  resultsTable += "<th>Interest Rate<br/>(Must be at least<br/>this rate to match PIR)</th><th>Return Before Taxes<br/> (using calculated interest rate)</th><th>Tax Payable<br/> (using personal tax rate)</th>";
  resultsTable += "<th>After-Tax Return</th></tr></thead><tbody>";    
     for (let i = 0; i < interest_rates.length; i++) {
